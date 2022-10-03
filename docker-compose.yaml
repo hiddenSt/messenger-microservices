@@ -1,0 +1,23 @@
+version: '3'
+
+
+services:
+  user_management:
+    build:
+      context: ./messenger-user-management
+      dockerfile: Dockerfile
+    container_name: user-management
+    networks:
+      - user_management_network
+      - gateway_network
+
+  user_management_db:
+    image: postgres
+    networks:
+      - user_management_network
+
+
+networks:
+  - gateway_network
+  - user_management_network
+

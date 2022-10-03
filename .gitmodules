@@ -1,0 +1,3 @@
+[submodule "messenger-user-management"]
+	path = messenger-user-management
+	url = git@github.com:hiddenSt/messenger-user-management.git

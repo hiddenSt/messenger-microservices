@@ -1,3 +1,6 @@
 [submodule "services/user-management"]
 	path = services/user-management
 	url = git@github.com:hiddenSt/messenger-user-management.git
+[submodule "services/chat"]
+	path = services/chat
+	url = git@github.com:hiddenSt/messenger-chat.git
